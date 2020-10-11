@@ -5,11 +5,15 @@ Int
 float
 complex
 """
+
+"""------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------"""
+
 #Int
 """ These are whole numbers either positive or negative , without decimal points , of unlimited length"""
 x = 1
 print(type(x))  #output : <class 'int'>
 
+"""------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------"""
 
 #float
 """
@@ -23,6 +27,7 @@ print(type(y))      #output : <class 'float'>
 print(type(yTwo))   #output: <class 'float'>
 print(yTwo)         #output : 4000.0
 
+"""------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------"""
 
 #Complex
 """
@@ -31,6 +36,7 @@ complex number are written with a j as the imaginary part
 z = 3j
 print(type(z))  #output : <class 'complex'>
 
+"""------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------"""
 
 '''
 Type conversions with the int(), float(),complex() methods
@@ -45,6 +51,7 @@ print(type(b))  # output : <class 'int'>
 c = complex(x)  # Converting x which is a integer to a complex
 print(type(c))  # output : <class 'complex'> nb -> you cannot convert a complex type to any other type
 
+"""------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-------"""
 
 '''
 Random numbers
