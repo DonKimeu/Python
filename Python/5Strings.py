@@ -85,3 +85,54 @@ print(j)            # output : True
 
 l = "is" not in txt
 print(l)            # output : False
+
+
+"""
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> String Concatenation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+To concatenate two strings we use the + operator
+"""
+
+m = "Hello"
+n = "Tiri"
+o = m + n
+print(o)            # output : HelloTiri
+print(m+" "+n)      # output : Hello Tiri
+
+'''
+We can combine string and numbers using the format() method
+The format method takes the argument formats them an places them where the placeholder calibraces are {}
+'''
+p = "My name is Tiri, i am {} years old"
+age = 22
+
+print(p.format(age)) # output : My name is Tiri, i am 22 years old
+
+'''
+The format() method takes unlimited number of arguments and places them into their respective placeholders
+'''
+
+quantity = 8
+itemno = 234
+price = 2000
+
+statement = "The number of lether bags is {} , the item number is {} and each costs {}"
+print(statement.format(quantity,itemno,price)) # output : The number of lether bags is 8 , the item number is 234 and each costs 2000
+
+
+''' you can use index numbers to ensure the arguments are placed in the correct place '''
+statement2 = "i want to pay {2} per bag and buy {0} pieces with the code {1}"
+print(statement2.format(quantity,itemno,price)) # i want to pay 2000 per bag and buy 8 pieces with the code 234
+
+"""
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Escape character <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+To insert characters that are illegal in a string we use escape characters
+\ followed by the character you want to insert
+"""
+
+myillegalone = "My parents and i went to the so called \"five star\" hotels "
+print(myillegalone)     # output :My parents and i went to the so called "five star" hotels
+
+"""
+below is the link to more python escape characters and string methods
+https://www.w3schools.com/python/python_strings.asp
+"""
