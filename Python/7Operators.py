@@ -53,3 +53,16 @@ print(b//a)      # Output : 1
 
 
 # >>>>>>>>>>>>>>>> Assignment Operators <<<<<<<<<<<<<<<<<<<
+
+c = 1
+
+c += 3          # It is similar to c = c + 3 the same applies to all other operators when assigning a value to the variables
+print(c)        # Ouput : 4
+'''
+When assigning a value to the variables we use the equll sign together with the operators
+eg : d *=5
+to represent d = d * 5
+'''
+d = 2
+d *=5
+print(d)        # Output : 10
